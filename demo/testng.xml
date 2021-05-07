@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="=Test Suite">
+    <test name="Test3">
+        <groups>
+            <run>
+                <include name="functest"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="demo1"/>
+            <class name="demo2"/>
+        </classes>
+    </test>
+    <test name="Test2">
+        <groups>
+            <run>
+                <include name="functest2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="demo1"/>
+            <class name="demo2"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter2"></listener>
+    </listeners>
+</suite>
