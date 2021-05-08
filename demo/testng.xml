@@ -8,8 +8,8 @@
             </run>
         </groups>
         <classes>
-            <class name="demo1"/>
-            <class name="demo2"/>
+            <class name="demo.test.demo1"></class>
+            <class name="demo.test.demo2"></class>
         </classes>
     </test>
     <test name="Test2">
@@ -19,8 +19,8 @@
             </run>
         </groups>
         <classes>
-            <class name="demo1"/>
-            <class name="demo2"/>
+            <class name="demo.test.demo1"></class>
+            <class name="demo.test.demo2"></class>
         </classes>
     </test>
 
